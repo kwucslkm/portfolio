@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lkm Shop</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <style>
+    * {
+        font-family: 'Poor Story', cursive;
+        font-weight: 550;
+    }
+
+    body {
+        width: 100vw;
+    }
+    #main_index {
+        width: 300px;
+        /* border: 1px solid rgb(9, 101, 200); */
+    }
+    .form-control{
+        border:1.8px solid rgb(10, 100, 200);
+        border-radius: 0.1cm;
+    }
+    
+</style>
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <h2><strong>어서오세요 ~ lkm shop</strong></h2><br>
+    </div>
+    <div id="main_index" class="container ">
+
+        <a href="06_memberReg.html"class="form-control text-center"><strong>회원가입</strong></a><br>
+        <a href="04_form.html"class="form-control text-center"><strong>로그인</strong></a><br>
+        <a href="https://www.notion.so/bb6d2273dfca4b07a338fd35f6752f76"class="form-control text-center"><strong>노션정처기</strong></a><br>
+
+        <!-- <button onclick="goLogin()" class="form-control"> 로그인</button><br> -->
+        <button onclick="fun1()" class="form-control"><strong>만든이</strong></button>
+    </div>
+</body>
+<script>
+
+    const goLogin = () => {
+        location.href = "login.html";
+    }
+
+</script>
+
+</html>
